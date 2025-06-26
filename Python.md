@@ -70,7 +70,7 @@
 
    - Official Guide: [VSCode Python Guide](https://code.visualstudio.com/docs/python/python-tutorial)
    - Videos:
-     - [Python in VSCode](https://www.youtube.com/watch?v=U21u5X_Fg_g)
+     - [Python in VSCode](https://www.youtube.com/watch?v=D2cwvpJSBX4)
      - [Virtual Environment Setup](https://www.youtube.com/watch?v=Kg1Yvry_Ydk)
 
 ---
