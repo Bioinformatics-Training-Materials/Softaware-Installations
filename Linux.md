@@ -32,8 +32,7 @@
 
 ## e. Alternative 2: Online Linux Terminals
 - Use an online terminal for quick access:
-  - [Webminal](https://www.webminal.org/)
-  - [JSLinux](https://bellard.org/jslinux/)
-
+   - [Webminal](https://www.webminal.org/)
+ 
 ## f. If All Else Fails:
 - Bring these issues up during the session for personalized troubleshooting.
