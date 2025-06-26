@@ -10,7 +10,7 @@
 ## c. For Windows 10 and Above Users:
 ### Enable Windows Subsystem for Linux (WSL):
 1. Follow this guide to install WSL: [Windows Subsystem for Linux (Microsoft)](https://learn.microsoft.com/en-us/windows/wsl/install).
-2. Detailed Steps:
+2. Quick steps for those with experience in OS installations; otherwise, stick to instructions in number 1.
    - Open **PowerShell** as an administrator and run:
      ```powershell
      wsl --install  
@@ -22,14 +22,13 @@
    - Restart your system if prompted.
 
 ### Additional Resources:
-- Watch this tutorial: [How to Install and Use WSL](https://www.youtube.com/watch?v=uhx58q4yH5E).
-- If you encounter errors, raise an issue on GitHub for assistance during the session.
+
+- If you encounter errors, raise an issue on GitHub for assistance.
 
 ## d. Alternative 1: Google Cloud Console
 - If WSL doesn’t work or you’re using an older version of Windows, you can use **Google Cloud Console**.
   - Sign up for a free tier here: [Google Cloud Console](https://console.cloud.google.com/).
-  - Launch an Ubuntu VM instance and access it via the in-browser terminal.
-  - Tutorial: [Create a Virtual Machine on Google Cloud](https://www.youtube.com/watch?v=_w0G8Rixhbg).
+      - Tutorial: [Create a project on Google Cloud](https://www.youtube.com/watch?v=dTT1RGW8eYw).
 
 ## e. Alternative 2: Online Linux Terminals
 - Use an online terminal for quick access:
