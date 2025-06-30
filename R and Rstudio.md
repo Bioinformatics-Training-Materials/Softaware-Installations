@@ -80,9 +80,5 @@ Make sure R is installed and added to your system’s `PATH`.
 - [R Project](https://cran.r-project.org)
 - [RStudio Guide](https://posit.co/resources/)
 
-### 7. Docker
 
-Choose the installer that best fits your system: 
-
-Docker https://www.docker.com/
 
