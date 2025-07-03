@@ -51,8 +51,18 @@ version
 
 Install essential R packages:
 ```r
-install.packages(c("tidyverse", "ggplot2", "dplyr"))
+install.packages(c( 
+  "tidyverse",
+  "ggplot2",      # Grammar of graphics
+  "plotly",       # Interactive plots
+  "corrplot",     # Correlation matrices
+  "ggpubr",       # Publication-ready plots
+  "RColorBrewer"  # Color palettes
+))
+
 library(ggplot2)
+library(tidyverse)
+library(dplyr)
 ```
 
 ### 4. Optional: Update R and RStudio
