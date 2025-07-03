@@ -2,12 +2,10 @@
 
 ## Install JupyterLab with pip:
 
-Access your terminal and start python
-
+Access your terminal
 ```bash
-python3
+sudo apt install python3-pip
 ```
-
 Proceed to install jupyter lab
 ```bash
 pip install jupyterlab
