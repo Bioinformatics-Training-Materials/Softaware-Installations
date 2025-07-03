@@ -49,20 +49,74 @@ Verify R version in RStudio:
 version
 ```
 
-Install essential R packages:
-```r
-install.packages(c( 
-  "tidyverse",
-  "ggplot2",      # Grammar of graphics
-  "plotly",       # Interactive plots
-  "corrplot",     # Correlation matrices
-  "ggpubr",       # Publication-ready plots
-  "RColorBrewer"  # Color palettes
-))
+## Install essential R packages:
 
-library(ggplot2)
-library(tidyverse)
-library(dplyr)
+Indivual package installation:
+
+```r
+# Install BiocManager if not already installed
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+# --- CRAN packages ---
+install.packages("tidyverse")
+install.packages("naniar")
+install.packages("dplyr")
+install.packages("seqRFLP")
+install.packages("ape")
+install.packages("phangorn")
+install.packages("seqinr")
+install.packages("msa")
+install.packages("phyloseq")
+install.packages("vegan")
+install.packages("microbiome")
+install.packages("janitor")
+install.packages("metagMisc")
+install.packages("gplots")
+install.packages("ggpubr")
+install.packages("picante")
+install.packages("psych")
+install.packages("schoolmath")
+install.packages("igraph")
+install.packages("dada2")
+install.packages("ggplot2")
+install.packages("plotly")
+install.packages("corrplot")
+install.packages("RColorBrewer")
+
+# --- Bioconductor packages ---
+BiocManager::install("Biostrings")
+BiocManager::install("DECIPHER")
+BiocManager::install("taxonomizr")
+BiocManager::install("edgeR")
+BiocManager::install("DESeq2")
+BiocManager::install("KEGGREST")
+```
+
+# Note: If you installed all the above you are done, Nothing more unless you understand the below codes
+
+```r
+# Install BiocManager if not already installed
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+# CRAN packages
+cran_packages <- c(
+  "tidyverse", "naniar", "dplyr", "seqRFLP", "ape", "phangorn", "seqinr", "msa",
+  "phyloseq", "vegan", "microbiome", "janitor", "metagMisc", "gplots", "ggpubr",
+  "picante", "psych", "schoolmath", "igraph", "dada2",
+  "ggplot2", "plotly", "corrplot", "RColorBrewer"
+)
+
+install.packages(cran_packages)
+
+# Bioconductor packages
+bioc_packages <- c(
+  "Biostrings", "DECIPHER", "taxonomizr", "edgeR", "DESeq2", "KEGGREST"
+)
+
+BiocManager::install(bioc_packages)
+
 ```
 
 ### 4. Optional: Update R and RStudio
