@@ -15,7 +15,7 @@ If the command cannot be found, you can add Anaconda bin to the path using:
 
 For reproducible analysis, you can [create a conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) with all the Python packages you used.
 
-    `conda create --name eneza python `
+    `conda create --name eneza python pandas matplotlib seaborn `
 
 <!-- conda create --name eneza python jupyter -->
     
