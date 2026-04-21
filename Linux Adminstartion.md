@@ -1,4 +1,4 @@
-# Lunch-time Linux  
+# Lunch-time Linux  Course
 ## Introduction to Systems Administration  
 **Scott Hazelhurst**  
 **April 2026**
