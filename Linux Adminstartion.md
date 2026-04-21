@@ -3,7 +3,7 @@
 **Scott Hazelhurst**  
 **April 2026**
 
-# Expanded Notes (Lecture 1 Only)
+# Lecture 1
 
 ## 1. Overview of the Course
 
