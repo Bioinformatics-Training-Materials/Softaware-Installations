@@ -26,12 +26,12 @@ Request interactive compute resources.
 ## Resources Requested
 
 - 1 node
-- 4 CPUs
+- 20 CPUs
 - 120 GB RAM
 - Up to 8 hours
 
 ```bash
-qsub -I -P CBBI1470 -l select=1:ncpus=4:mem=120gb -l walltime=08:00:00
+qsub -I -P CBBI1470 -l select=1:ncpus=20:mem=120gb -l walltime=08:00:00
 ```
 
 ---
